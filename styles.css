@@ -1,0 +1,110 @@
+.top-navigation {
+    background: maroon;
+}
+
+.top-navigation ul {
+    list-style:none;
+    text-align: left;
+    border: 0;
+    margin: 0;
+}
+
+.top-navigation li {
+    font-family: 'Georgia', serif;
+    font-size: 1.5em;
+    color: goldenrod;
+    display: inline-block;
+    border: 0;
+}
+
+.top-navigation img {
+    height: 50%;
+    width: 50%;
+}
+
+.main-navigation {
+    background: goldenrod;
+}
+
+.main-navigation ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    border: 5px solid maroon;
+}
+
+.main-navigation li {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+}
+
+.main-navigation a {
+    text-decoration: none;
+    color: maroon;
+    display: block;
+    transition: .3s background-color; 
+}
+
+.main-navigation a:hover {
+    background-color: maroon;
+    color: goldenrod;
+}
+
+.main-navigation a.active {
+    border: 2px solid maroon;
+    cursor: default;
+}
+
+@media screen and (min-width: 600px) {
+    .main-navigation li {
+        height: 55px;
+        line-height: 55px;
+        font-size: 1.4em;
+        display: inline-block;
+        margin-right: -5px;
+    }
+
+    .main-navigation a {
+        padding: 0 1em;
+    }
+}
+
+.cat-navigation {
+    background: maroon;
+}
+
+.cat-navigation ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.cat-navigation li {
+    font-family: Georgia, serif;
+    font-size: 1.3em;
+    line-height: 100px;
+    height: 130px;
+    display: inline-block;
+    border: 5px solid goldenrod;
+    padding: 9px;
+    margin: 0;
+}
+
+.cat-navigation a {
+    text-decoration: none;
+    color: goldenrod;
+    display: inline-block;
+}
+
+.cat-navigation a:hover {
+    background: goldenrod;
+    color: maroon;
+}
+
+img {
+    max-width: 100%;
+}

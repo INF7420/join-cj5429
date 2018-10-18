@@ -5,16 +5,28 @@
   <meta name="Description" content="INF 7420 Project">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Riverview Community School District Media Centers</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.5.0/modern-normalize.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
 <header>
-  <a href="https://www.riverviewschools.com"><img src="images/pirates-logo.png" alt=""></a>
-  <h1>Riverview Community School District Media Centers</h1>
-<nav>
+<nav class="top-navigation">
+<ul>
+  <li>
+    <a href="https://www.riverviewschools.com"><img src="images/pirates-logo.png" alt=""></a>
+  </li>
+  <li>
+    <h1>Riverview Community School District Media Centers</h1>
+</li>
+</ul>
+</nav>
+<nav class="main-navigation">
   <ul>
     <li>
-      <a href="index.html">Home</a>
+      <a href="index.html" class="active">Home</a>
     </li>
     <li>
       <a href="blog.html">Blog</a>
@@ -24,7 +36,7 @@
     </li>
   </ul>
 </nav>
-<nav>
+<nav class="cat-navigation">
   <ul>
     <li>
       <a href="https://libraries.resa.net/common/welcome.jsp?site=100&context=riverview">Riverview High School</a>
