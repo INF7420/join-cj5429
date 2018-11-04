@@ -20,6 +20,7 @@
 .top-navigation img {
     height: 50%;
     width: 50%;
+    padding: 5px;
 }
 
 .main-navigation {
@@ -74,6 +75,9 @@
 
 .cat-navigation {
     background: maroon;
+    padding: 0;
+    margin: 0;
+    border: 5px solid maroon;
 }
 
 .cat-navigation ul {
@@ -103,6 +107,126 @@
 .cat-navigation a:hover {
     background: goldenrod;
     color: maroon;
+}
+
+.images-links {
+    background: goldenrod;
+    margin: 0;
+    padding: 0;
+    border: 5px solid goldenrod;
+}
+
+.images-links ul {
+    list-style: none;
+    text-align: left;
+    padding: 0;
+    border: 0;
+}
+
+.images-links li {
+    font-family: Montserrat, sans-serif;
+    color: maroon;
+    display: inline-block;
+    border: 0;
+    margin: 0;
+}
+
+.useful-links {
+    background: goldenrod;
+}
+
+.useful-links ul {
+    list-style: none;
+    text-align: left;
+    padding: 0;
+    border: 0;
+}
+
+.useful-links li {
+    font-family: Montserrat, sans-serif;
+    color: maroon;
+    display: block;
+    border: 0;
+    margin: 0;
+}
+
+.useful-links a{
+    color: maroon;
+    display: block;
+}
+
+.useful-links a:hover {
+    color: black;
+}
+
+.footer {
+    background: maroon;
+    padding: 0;
+    margin: 0;
+    border: 1px solid maroon;
+}
+
+.footer ul {
+    list-style: none;
+    text-align: left;
+    padding: 0;
+    border: 0;
+    line-height: 20px;
+}
+
+.footer li {
+    font-family: Georgia, serif;
+    font-size: 14px;
+    color: goldenrod;
+    line-height: 20px;
+    display: inline-block;
+    border: 1px;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background: goldenrod;
+    color: maroon;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border: 1px solid goldenrod;
+}
+
+.main ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    border: 1px solid goldenrod;
+    line-height: 1em;
+}
+
+.main li {
+    font-family: Montserrat, sans-serif;
+    color: maroon;
+    text-align: center;
+    line-height: 1.2em;
+    background: goldenrod;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    border: 1px solid goldenrod;
+}
+
+.main a{
+    text-decoration: none;
+    color: maroon;
+}
+
+.main a:hover {
+    color: black;
+}
+
+.main img{
+    height: 100px;
+    width: 100px;
 }
 
 img {
