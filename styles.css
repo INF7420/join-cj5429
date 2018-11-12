@@ -15,12 +15,14 @@
     color: goldenrod;
     display: inline-block;
     border: 0;
+    vertical-align: middle;
 }
 
 .top-navigation img {
-    height: 50%;
-    width: 50%;
+    height: 95px;
+    width: 85px;
     padding: 5px;
+    vertical-align: middle;
 }
 
 .main-navigation {
@@ -144,10 +146,11 @@
 
 .useful-links li {
     font-family: Montserrat, sans-serif;
+    font-weight: bold;
     color: maroon;
     display: block;
     border: 0;
-    margin: 0;
+    margin: 1px;
 }
 
 .useful-links a{
@@ -229,6 +232,75 @@
     width: 100px;
 }
 
+main {
+    background: goldenrod;
+    color: maroon;
+}
+
 img {
     max-width: 100%;
+}
+
+form {
+    margin: 0 auto;
+    width: 600px;
+    padding: 1em;
+    padding-top: 10px;
+    margin-top: 10px;
+    border: 3px solid maroon;
+    border-radius: 1em;
+    background: goldenrod;
+}
+
+form div + div {
+    margin-top: 1em;
+}
+
+label {
+    display: inline-block;
+    width: 190px;
+    text-align: right;
+}
+
+input, textarea {
+    font: 1em Montserrat;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid maroon;
+}
+
+input:focus, textarea:focus {
+    border-color: #000;
+}
+
+textarea {
+    vertical-align: top;
+    height: 5em;
+}
+
+.button {
+    padding-left: 200px;
+}
+
+button {
+    margin-left: .5em;
+}
+
+.form-input {
+    display: inline-block;
+    font: 1em Montserrat;
+    background: lightgoldenrodyellow;
+}
+
+input:invalid {
+    border: 2px solid maroon;
+}
+
+input:valid {
+    border: 2px solid black;
+}
+
+.thanks {
+    background: goldenrod;
+    color: maroon;
 }
