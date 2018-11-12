@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="Description" content="INF 7420 Project">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.5.0/modern-normalize.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+    <nav class="top-navigation">
+        <ul>
+          <li>
+            <a href="https://www.riverviewschools.com"><img src="images/pirates-logo.png" alt=""></a>
+          </li>
+          <li>
+            <h1>Riverview Community School District Media Centers</h1>
+        </li>
+        </ul>
+        </nav>
+<nav class="main-navigation">
+  <ul>
+    <li>
+      <a href="index.html">Home</a>
+    </li>
+    <li>
+      <a href="staff.html">Staff</a>
+    </li>
+    <li>
+      <a href="contact.html" class="active">Contact</a>
+    </li>
+  </ul>
+</nav>
+<nav class="cat-navigation">
+  <ul>
+    <li>
+      <a href="https://libraries.resa.net/common/welcome.jsp?site=100&context=riverview">Riverview High School</a>
+    </li>
+    <li>
+      <a href="https://libraries.resa.net/common/welcome.jsp?site=101&context=riverview">Seitz Middle School</a>
+    </li>
+    <li>
+      <a href="https://libraries.resa.net/common/welcome.jsp?site=102&context=riverview">Forest Elementary School</a>
+    </li>
+    <li>
+      <a href="https://libraries.resa.net/common/welcome.jsp?site=103&context=riverview">Huntington Elementary School</a>
+    </li>
+    <li>
+      <a href="https://libraries.resa.net/common/welcome.jsp?site=104&context=riverview">Memorial Elementary School</a>
+    </li>
+  </ul>
+</nav>
+</header>
+
+<main>
+  <p class="main">
+      <form action="https://formspree.io/rcsd.ptaylor@gmail.com" method="POST" data-validate>
+      <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="user_name" class="form-input" required>
+      </div>
+      <div>
+        <label for="mail">E-mail:</label>
+        <input type="email" id="mail" name="user_mail" value="i.e. username@gmail.com" class="form-input">
+      </div>
+      <div>
+        <label for="phone">Phone:</label>
+        <input type="text" id="phone" name="user_phone" value="i.e. 734-285-2043" minlength="7" maxlength="14" class="form-input">
+      </div>
+      <div>
+        <label for="preferred-contact">Preferred Contact Method:</label>
+          <ul class="main">
+            <li>
+              <label for="email">E-mail <input type="checkbox" id="email" value="1" class="form-choice"></label>
+            </li>
+            <li>
+              <label for="phone">Phone <input type="checkbox" id="user_phone" value="1" class="form-choice"></label>
+            </li>
+          </ul>
+      </div>
+      <div>
+        <label for="msg">Message:</label>
+        <textarea id="msg" name="user_message" class="form-input" required></textarea>
+      </div>
+      <div class="button">
+        <button type="submit">Send your message</button>
+      </div>
+
+      <input type="hidden" name="_next" value="https://inf7420.github.io/taylor-project/thanks.html" />
+      <input type="hidden" name="_subject" value="Contact form" />
+      <input type="text" name="_gotcha" style="display:none" />
+    </form>
+  </p>
+<ul class="main">
+  <li>
+    <a href="mailto:ptaylor@riverviewschools.com"><img src="images/email.png" alt=""></a>
+  </li>
+  <li>
+    <a href="https://www.twitter.com/PatTaylorRCSD"><img src="images/twitter.png" alt=""></a>
+  </li>
+  <li>
+    <a href="https://riverview.schoology.com/group/1890967826"><img src="images/schoology.png" alt=""></a>
+  </li>
+</ul>
+</main>
+
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/validate@2.2.0/dist/validate.min.js"></script>
+
+<script>
+  validate.init();
+</script>
+
+<footer>
+  <ul class="footer">
+    <li>
+      Riverview Community School District |
+    </li>
+    <li>
+      13425 Colvin Street, Riverview, MI 48193 |
+    </li>
+    <li>
+      734.285.9660 (central office) |
+    </li>
+    <li>
+      734.285.2043 ext. 3032 (media center)
+    </li>
+  </ul>
+</footer>
+
+</body>
+</html>

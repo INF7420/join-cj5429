@@ -15,11 +15,14 @@
     color: goldenrod;
     display: inline-block;
     border: 0;
+    vertical-align: middle;
 }
 
 .top-navigation img {
-    height: 50%;
-    width: 50%;
+    height: 95px;
+    width: 85px;
+    padding: 5px;
+    vertical-align: middle;
 }
 
 .main-navigation {
@@ -74,6 +77,9 @@
 
 .cat-navigation {
     background: maroon;
+    padding: 0;
+    margin: 0;
+    border: 5px solid maroon;
 }
 
 .cat-navigation ul {
@@ -105,6 +111,196 @@
     color: maroon;
 }
 
+.images-links {
+    background: goldenrod;
+    margin: 0;
+    padding: 0;
+    border: 5px solid goldenrod;
+}
+
+.images-links ul {
+    list-style: none;
+    text-align: left;
+    padding: 0;
+    border: 0;
+}
+
+.images-links li {
+    font-family: Montserrat, sans-serif;
+    color: maroon;
+    display: inline-block;
+    border: 0;
+    margin: 0;
+}
+
+.useful-links {
+    background: goldenrod;
+}
+
+.useful-links ul {
+    list-style: none;
+    text-align: left;
+    padding: 0;
+    border: 0;
+}
+
+.useful-links li {
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    color: maroon;
+    display: block;
+    border: 0;
+    margin: 1px;
+}
+
+.useful-links a{
+    color: maroon;
+    display: block;
+}
+
+.useful-links a:hover {
+    color: black;
+}
+
+.footer {
+    background: maroon;
+    padding: 0;
+    margin: 0;
+    border: 1px solid maroon;
+}
+
+.footer ul {
+    list-style: none;
+    text-align: left;
+    padding: 0;
+    border: 0;
+    line-height: 20px;
+}
+
+.footer li {
+    font-family: Georgia, serif;
+    font-size: 14px;
+    color: goldenrod;
+    line-height: 20px;
+    display: inline-block;
+    border: 1px;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background: goldenrod;
+    color: maroon;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border: 1px solid goldenrod;
+}
+
+.main ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    border: 1px solid goldenrod;
+    line-height: 1em;
+}
+
+.main li {
+    font-family: Montserrat, sans-serif;
+    color: maroon;
+    text-align: center;
+    line-height: 1.2em;
+    background: goldenrod;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    border: 1px solid goldenrod;
+}
+
+.main a{
+    text-decoration: none;
+    color: maroon;
+}
+
+.main a:hover {
+    color: black;
+}
+
+.main img{
+    height: 100px;
+    width: 100px;
+}
+
+main {
+    background: goldenrod;
+    color: maroon;
+}
+
 img {
     max-width: 100%;
+}
+
+form {
+    margin: 0 auto;
+    width: 600px;
+    padding: 1em;
+    padding-top: 10px;
+    margin-top: 10px;
+    border: 3px solid maroon;
+    border-radius: 1em;
+    background: goldenrod;
+}
+
+form div + div {
+    margin-top: 1em;
+}
+
+label {
+    display: inline-block;
+    width: 190px;
+    text-align: right;
+}
+
+input, textarea {
+    font: 1em Montserrat;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid maroon;
+}
+
+input:focus, textarea:focus {
+    border-color: #000;
+}
+
+textarea {
+    vertical-align: top;
+    height: 5em;
+}
+
+.button {
+    padding-left: 200px;
+}
+
+button {
+    margin-left: .5em;
+}
+
+.form-input {
+    display: inline-block;
+    font: 1em Montserrat;
+    background: lightgoldenrodyellow;
+}
+
+input:invalid {
+    border: 2px solid maroon;
+}
+
+input:valid {
+    border: 2px solid black;
+}
+
+.thanks {
+    background: goldenrod;
+    color: maroon;
 }
