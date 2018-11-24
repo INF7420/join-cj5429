@@ -1,5 +1,5 @@
 .top-navigation {
-    background: maroon;
+    background: #800227;
 }
 
 .top-navigation ul {
@@ -12,7 +12,7 @@
 .top-navigation li {
     font-family: 'Georgia', serif;
     font-size: 1.5em;
-    color: goldenrod;
+    color: #ffac00;
     display: inline-block;
     border: 0;
     vertical-align: middle;
@@ -26,7 +26,7 @@
 }
 
 .main-navigation {
-    background: goldenrod;
+    background: #ffac00;
 }
 
 .main-navigation ul {
@@ -34,7 +34,7 @@
     text-align: center;
     padding: 0;
     margin: 0;
-    border: 5px solid maroon;
+    border: 5px solid #800227;
 }
 
 .main-navigation li {
@@ -46,18 +46,18 @@
 
 .main-navigation a {
     text-decoration: none;
-    color: maroon;
+    color: #800227;
     display: block;
     transition: .3s background-color; 
 }
 
 .main-navigation a:hover {
-    background-color: maroon;
-    color: goldenrod;
+    background-color: #800227;
+    color: #ffac00;
 }
 
 .main-navigation a.active {
-    border: 2px solid maroon;
+    border: 2px solid #800227;
     cursor: default;
 }
 
@@ -76,10 +76,10 @@
 }
 
 .cat-navigation {
-    background: maroon;
+    background: #800227;
     padding: 0;
     margin: 0;
-    border: 5px solid maroon;
+    border: 5px solid #800227;
 }
 
 .cat-navigation ul {
@@ -95,27 +95,27 @@
     line-height: 100px;
     height: 130px;
     display: inline-block;
-    border: 5px solid goldenrod;
+    border: 5px solid #ffac00;
     padding: 9px;
     margin: 0;
 }
 
 .cat-navigation a {
     text-decoration: none;
-    color: goldenrod;
+    color: #ffac00;
     display: inline-block;
 }
 
 .cat-navigation a:hover {
-    background: goldenrod;
-    color: maroon;
+    background: #ffac00;
+    color: #800227;
 }
 
 .images-links {
-    background: goldenrod;
+    background: #ffac00;
     margin: 0;
     padding: 0;
-    border: 5px solid goldenrod;
+    border: 5px solid #800227;
 }
 
 .images-links ul {
@@ -127,14 +127,14 @@
 
 .images-links li {
     font-family: Montserrat, sans-serif;
-    color: maroon;
+    color: #800227;
     display: inline-block;
     border: 0;
-    margin: 0;
+    margin: 10px;
 }
 
 .useful-links {
-    background: goldenrod;
+    background: #ffac00;
 }
 
 .useful-links ul {
@@ -147,14 +147,14 @@
 .useful-links li {
     font-family: Montserrat, sans-serif;
     font-weight: bold;
-    color: maroon;
+    color: #800227;
     display: block;
     border: 0;
     margin: 1px;
 }
 
 .useful-links a{
-    color: maroon;
+    color: #800227;
     display: block;
 }
 
@@ -163,10 +163,10 @@
 }
 
 .footer {
-    background: maroon;
+    background: #800227;
     padding: 0;
     margin: 0;
-    border: 1px solid maroon;
+    border: 1px solid #800227;
 }
 
 .footer ul {
@@ -180,21 +180,22 @@
 .footer li {
     font-family: Georgia, serif;
     font-size: 14px;
-    color: goldenrod;
+    color: #ffac00;
     line-height: 20px;
     display: inline-block;
     border: 1px;
     margin: 0;
+    margin-left: 1.2em;
     padding: 0;
 }
 
 .main {
-    background: goldenrod;
-    color: maroon;
+    background: #ffac00;
+    color: #800227;
     text-align: center;
     margin: 0;
     padding: 0;
-    border: 1px solid goldenrod;
+    border: 5px solid #800227;
 }
 
 .main ul {
@@ -202,25 +203,25 @@
     text-align: center;
     padding: 0;
     margin: 0;
-    border: 1px solid goldenrod;
+    border: 1px solid #ffac00;
     line-height: 1em;
 }
 
 .main li {
     font-family: Montserrat, sans-serif;
-    color: maroon;
+    color: #800227;
     text-align: center;
     line-height: 1.2em;
-    background: goldenrod;
+    background: #ffac00;
     display: inline-block;
     margin: 0;
     padding: 0;
-    border: 1px solid goldenrod;
+    border: 1px solid #ffac00;
 }
 
 .main a{
     text-decoration: none;
-    color: maroon;
+    color: #800227;
 }
 
 .main a:hover {
@@ -233,8 +234,8 @@
 }
 
 main {
-    background: goldenrod;
-    color: maroon;
+    background: #ffac00;
+    color: #800227;
 }
 
 img {
@@ -247,9 +248,9 @@ form {
     padding: 1em;
     padding-top: 10px;
     margin-top: 10px;
-    border: 3px solid maroon;
+    border: 3px solid #800227;
     border-radius: 1em;
-    background: goldenrod;
+    background: #ffac00;
 }
 
 form div + div {
@@ -266,7 +267,7 @@ input, textarea {
     font: 1em Montserrat;
     width: 300px;
     box-sizing: border-box;
-    border: 1px solid maroon;
+    border: 1px solid #800227;
 }
 
 input:focus, textarea:focus {
@@ -293,7 +294,7 @@ button {
 }
 
 input:invalid {
-    border: 2px solid maroon;
+    border: 2px solid #800227;
 }
 
 input:valid {
@@ -301,6 +302,6 @@ input:valid {
 }
 
 .thanks {
-    background: goldenrod;
-    color: maroon;
+    background: #ffac00;
+    color: #800227;
 }
