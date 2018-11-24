@@ -127,6 +127,7 @@
 
 .images-links li {
     font-family: Montserrat, sans-serif;
+    text-align: center;
     color: #800227;
     display: inline-block;
     border: 0;
@@ -139,7 +140,7 @@
 
 .useful-links ul {
     list-style: none;
-    text-align: left;
+    text-align: right;
     padding: 0;
     border: 0;
 }
@@ -147,10 +148,11 @@
 .useful-links li {
     font-family: Montserrat, sans-serif;
     font-weight: bold;
+    text-align: right;
     color: #800227;
     display: block;
     border: 0;
-    margin: 1px;
+    margin: auto;
 }
 
 .useful-links a{
@@ -160,6 +162,29 @@
 
 .useful-links a:hover {
     color: black;
+}
+
+.centered-list {
+    background: #ffac00;
+}
+
+.centered-list ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    border: 0;
+}
+
+.centered-list li {
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: #800227;
+    display: block;
+    line-height: .1em;
+    border: 0;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .footer {
