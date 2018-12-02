@@ -261,6 +261,42 @@
     width: 250px;
 }
 
+.contact {
+    background: #ffac00;
+    color: #800227;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border: 5px solid #800227;
+}
+
+.contact ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ffac00;
+    line-height: 1em;
+}
+
+.contact li {
+    font-family: Montserrat, sans-serif;
+    color: #800227;
+    text-align: center;
+    line-height: 1.2em;
+    background: #ffac00;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 0;
+    border: 1px solid #ffac00;
+}
+
+.contact img {
+    height: 100px;
+    width: 100px;
+}
+
 main {
     background: #ffac00;
     color: #800227;
