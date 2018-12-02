@@ -5,6 +5,27 @@
   <meta name="Description" content="INF 7420 Project">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Riverview Community School District Media Centers</title>
+  <script type="text/javascript">
+    var picPaths = ['images/01.jpg','images/02.jpg','images/03.jpg','images/04.jpg','images/05.jpg'];
+    var curPic = -1;
+    //preload the images for smooth animation
+    var imgO = new Array();
+    for(i=0; i < picPaths.length; i++) {
+        imgO[i] = new Image();
+        imgO[i].src = picPaths[i];
+    }
+
+    function swapImage() {
+        curPic = (++curPic > picPaths.length-1)? 0 : curPic;
+        imgCont.src = imgO[curPic].src;
+        setTimeout(swapImage,2000);
+    }
+
+    window.onload=function() {
+        imgCont = document.getElementById('imgBanner');
+        swapImage();
+    }
+  </script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.5.0/modern-normalize.min.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
@@ -60,7 +81,9 @@
 <main>
   <ul class="images-links">
     <li>
-      <img src="images/ms-project.JPG" alt="">
+      <div class="pics">
+        <img id="imgBanner">
+      </div>
     </li>
     <li>
       <h2>Hours</h2>
@@ -91,7 +114,7 @@
 
     </li>
     <li>
-      <h2>News & updates</h2>
+      <h2 class="useful-links">News & updates</h2>
         <ul class="useful-links">
           <li>
             <a href="https://4.files.edl.io/04f6/07/11/18/203250-e7f9ebe2-b83e-4042-9176-d7061feac3c0.pdf">Latest Issue of the Riverview Register</a>
