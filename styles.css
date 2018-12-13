@@ -410,7 +410,17 @@ input:valid {
     .useful-links li {
         text-align: center;
     }
+    .pics img {
+        max-width: 90%;
+        max-height: 90%;
+    }
     form {
         max-width: 90%;
+    }
+    textarea {
+        max-width: 75%;
+    }
+    input {
+        max-width: 75%;
     }
 }
