@@ -43,12 +43,13 @@
     font-size: 1.2em;
     line-height: 40px;
     height: 40px;
+    display: inline-block;
 }
 
 .main-navigation a {
     text-decoration: none;
     color: #800227;
-    display: block;
+    display: inline-block;
     transition: .3s background-color; 
 }
 
@@ -60,20 +61,6 @@
 .main-navigation a.active {
     border: 2px solid #800227;
     cursor: default;
-}
-
-@media screen and (min-width: 600px) {
-    .main-navigation li {
-        height: 55px;
-        line-height: 55px;
-        font-size: 1.4em;
-        display: inline-block;
-        margin-right: -5px;
-    }
-
-    .main-navigation a {
-        padding: 0 1em;
-    }
 }
 
 .cat-navigation {
@@ -382,3 +369,38 @@ input:valid {
     top:  0; 
     left: 0; 
 } 
+
+@media screen and (max-width: 600px) {
+    .main-navigation li {
+        height: 55px;
+        line-height: 55px;
+        font-size: 1.4em;
+        display: block;
+        margin-right: -5px;
+    }
+
+    .main-navigation a {
+        padding: 0 1em;
+    }
+    .cat-navigation li {
+        display: block;
+    }
+    .useful-links li {
+        display: block;
+    }
+    .footer li {
+        display: block;
+    }
+    .main li {
+        display: block;
+    }
+    .contact li {
+        display: block;
+    }
+    .useful-links li {
+        text-align: center;
+    }
+    form {
+        max-width: 90%;
+    }
+}
