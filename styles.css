@@ -10,6 +10,11 @@
     width: 50%;
 }
 
+.construction ul {
+    margin: 0;
+    border: 0;
+}
+
 header {
     font-family: Georgia, serif;
     background: lavender;
