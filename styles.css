@@ -11,16 +11,22 @@ header {
     font-family: Georgia, serif;
     background: lavender;
     color: indigo;
+    margin: 0;
+    border: 0;
 }
 
 main {
     font-family: Georgia, serif;
     background: lavender;
     color: indigo;
+    margin: 0;
+    border: 0;
 }
 
 footer {
     font-family: Georgia, serif;
     background: lavender;
     color: indigo;
+    margin: 0;
+    border: 0;
 }
