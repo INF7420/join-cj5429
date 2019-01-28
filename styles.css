@@ -1,3 +1,25 @@
+.top-navigation {
+    background: lavender;
+}
+
+.top-navigation ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    border: 0;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.top-navigation li {
+    font-family: Georgia, serif;
+    font-size: 1em;
+    color: indigo;
+    display: inline-block;
+    border: 0;
+    padding: 2px;
+}
+
 .construction {
     text-align: center;
     background: lavender;
@@ -11,6 +33,11 @@
 }
 
 .construction ul {
+    margin: 0;
+    border: 0;
+}
+
+.construction li {
     margin: 0;
     border: 0;
 }
@@ -36,5 +63,23 @@ footer {
     background: lavender;
     color: indigo;
     margin: 0;
+    border: 0;
+}
+
+footer ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    border: 0;
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+
+footer li {
+    font-family: Georgia, serif;
+    font-size: 1em;
+    color: indigo;
+    display: block;
+    padding: 2px;
     border: 0;
 }
