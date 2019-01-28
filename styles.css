@@ -1,0 +1,26 @@
+.construction {
+    text-align: center;
+}
+
+.construction img {
+    height: 50%;
+    width: 50%;
+}
+
+header {
+    font-family: Georgia, serif;
+    background: lavender;
+    color: indigo;
+}
+
+main {
+    font-family: Georgia, serif;
+    background: lavender;
+    color: indigo;
+}
+
+footer {
+    font-family: Georgia, serif;
+    background: lavender;
+    color: indigo;
+}
