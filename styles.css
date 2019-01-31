@@ -28,11 +28,30 @@
 
 .top-navigation li {
     font-family: Georgia, serif;
-    font-size: 1em;
-    color: indigo;
+    font-size: 1.2em;
+    color: lavender;
+    background: indigo;
     display: inline-block;
-    border: 0;
-    padding: 2px;
+    border: 2px solid white;
+    margin-left: .5%;
+    margin-right: .5%;
+    width: 15%;
+    padding: 1em;
+}
+
+.top-navigation a {
+    text-decoration: none;
+    color: lavender;
+}
+
+.top-navigation a:hover {
+    background: lavender;
+    color: indigo;
+}
+
+.top-navigation a.active {
+    border: 2px solid white;
+    cursor: default;
 }
 
 .construction {
