@@ -81,7 +81,44 @@
     width: 30%;
     margin: 0;
     border: 0;
-    padding: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.reading-list img {
+    width: 100%;
+}
+
+.smaller-reading-list {
+    font-family: Georgia, serif;
+    background: lavender;
+    color: indigo;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+.smaller-reading-list ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+.smaller-reading-list li {
+    font-family: Georgia, serif;
+    color: indigo;
+    display: inline-block;
+    width: 30%;
+    margin: 0;
+    border: 0;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.smaller-reading-list img {
+    width: 85%;
 }
 
 header {
