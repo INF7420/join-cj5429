@@ -41,8 +41,35 @@
 </header>
 
 <main>
-    <div class="construction">
-        <img src="images/under-construction.png">
+    <div class="main">
+        <form action="https://formspree.io/rcsd.ptaylor@gmail.com" method="POST" data-validate>
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="user_name" class="form-input" required>
+            </div>
+            <div>
+                <label for="mail">E-mail:</label>
+                <input type="email" id="mail" name="user_mail" class="form-input">
+            </div>
+            <div>
+                <label for="msg">Message:</label>
+                <textarea id="msg" name="user_message" class="form-input" required></textarea>
+            </div>
+            <div class="button">
+                <button type="submit">Send your message</button>
+            </div>          
+            <input type="hidden" name="_next" value="https://inf7420.github.io/taylor-project/thanks.html" />
+            <input type="hidden" name="_subject" value="Contact form" />
+            <input type="text" name="_gotcha" style="display:none" />
+        </form>
+        <ul class="contact">
+            <li>
+                <a href="mailto:ptaylor@riverviewschools.com"><img src="rcsd-media-centers/images/email.png" alt=""></a>
+            </li>
+            <li>
+                <a href="https://www.twitter.com/gvtaylorp"><img src="rcsd-media-centers/images/twitter.png" alt=""></a>
+            </li>
+        </ul>
     </div>
 </main>
 

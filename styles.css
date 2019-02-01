@@ -141,6 +141,139 @@
     width: 85%;
 }
 
+.main {
+    background: lavender;
+    color: indigo;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.main ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    border: 1px solid lavender;
+    line-height: 1em;
+}
+
+.main li {
+    font-family: Georgia, serif;
+    color: indigo;
+    text-align: center;
+    line-height: 1.2em;
+    background: lavender;
+    display: inline-block;
+    margin: 5%;
+    padding: 0;
+    border: 0;
+}
+
+.main a{
+    text-decoration: none;
+    color: indigo;
+}
+
+.main a:hover {
+    color: black;
+}
+
+form {
+    margin: 0 auto;
+    width: 40%;
+    padding: 1em;
+    padding-top: 1%;
+    margin-top: 0;
+    border: 3px solid indigo;
+    border-radius: 1em;
+    background: lavender;
+}
+
+form div + div {
+    margin-top: 1em;
+}
+
+label {
+    display: inline-block;
+    width: 190px;
+    text-align: right;
+}
+
+input, textarea {
+    font: 1em Georgia, serif;
+    width: 40%;
+    box-sizing: border-box;
+    border: 1px solid indigo;
+}
+
+input:focus, textarea:focus {
+    border-color: #000;
+}
+
+textarea {
+    vertical-align: top;
+    height: 5em;
+}
+
+.button {
+    padding-left: 200px;
+}
+
+button {
+    margin-left: .5em;
+}
+
+.form-input {
+    display: inline-block;
+    font: 1em Georgia, serif;
+    background: lavenderblush;
+}
+
+input:invalid {
+    border: 2px solid darkslateblue;
+}
+
+input:valid {
+    border: 2px solid black;
+}
+
+.contact {
+    background: lavender;
+    color: indigo;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.contact ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    line-height: 1em;
+}
+
+.contact li {
+    font-family: Georgia, serif;
+    color: indigo;
+    text-align: center;
+    line-height: 1.2em;
+    background: lavender;
+    display: inline-block;
+    margin: 1%;
+    padding: 0;
+    border: 0;
+}
+
+.contact img {
+    height: 100px;
+    width: 100px;
+}
+
 header {
     font-family: Georgia, serif;
     background: lavender;
