@@ -315,3 +315,27 @@ footer li {
     padding: 2px;
     border: 0;
 }
+
+@media screen and (max-width: 600px) {
+    .top-navigation li {
+        font-family: Georgia, serif;
+        font-size: 1.2em;
+        color: lavender;
+        background: indigo;
+        display: block;
+        border: 2px solid white;
+        margin: 0;
+        width: 100%;
+        padding: 1em;
+    }
+    
+    form {
+        max-width: 100%;
+    }
+    textarea {
+        max-width: 75%;
+    }
+    input {
+        max-width: 75%;
+    }
+}
