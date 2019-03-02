@@ -9,6 +9,21 @@
     font: 1em Georgia, serif;
 }
 
+.navigation a {
+    color: white;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    background: lightgray;
+    color: black;
+}
+
+.navigation a:active {
+    background: #484848;
+    color: #C0C0C0;
+}
+
 .navigation ul {
     list-style: none;
     text-align: center;
@@ -17,6 +32,10 @@
 .navigation li {
     width: 15%;
     display: inline-block;
+    color: white;
+    background: black;
+    border: 2px solid gray;
+    padding: 1em;
 }
 
 .quote {
@@ -24,8 +43,31 @@
     color: gray;
 }
 
-
+.body {
+    margin-left: 2%;
+    margin-right: 2%;
+    font-family: Georgia, serif;
+}
 
 .footer {
     font-size: .5em;
+    margin-bottom: 1%;
+    margin-left: 1%;
+}
+
+@media screen and (max-width: 600px) {
+    .navigation li {
+        font-family: Georgia, serif;
+        font-size: 1.2em;
+        text-align: center;
+        color: white;
+        background: black;
+        display: block;
+        border: 2px solid gray;
+        margin: 5px;
+        margin-left: 12%;
+        margin-right: 12%;
+        width: 75%;
+        padding: .5em;
+    }
 }
